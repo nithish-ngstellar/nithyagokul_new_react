@@ -94,20 +94,42 @@ export default function ContactPage() {
                 <div className="bg-white/80 backdrop-blur-md border border-slate-200/60 rounded-[16px] p-5 md:p-6 shadow-[0_8px_30px_rgba(0,0,0,0.04)] relative overflow-hidden group">
                   <div className="absolute top-0 right-0 w-24 h-24 bg-gold/5 rounded-full blur-2xl -mr-12 -mt-12 pointer-events-none" />
 
-                  <div className="flex flex-col md:flex-row gap-4 relative z-10">
-                    <div className="w-10 h-10 bg-navy/5 rounded-full flex items-center justify-center shrink-0">
-                      <MapPin className="w-5 h-5 text-navy" />
+                  <div className="flex flex-col gap-4 relative z-10">
+                    <div className="flex items-center gap-3">
+                      <div className="w-9 h-9 bg-navy/5 rounded-full flex items-center justify-center shrink-0">
+                        <MapPin className="w-4 h-4 text-navy" />
+                      </div>
+                      <div>
+                        <h3 className="text-[11px] font-bold text-slate-400 uppercase tracking-widest">Our Locations</h3>
+                        <div className="font-serif text-base font-bold text-navy">Nithya Gokul Associates</div>
+                      </div>
                     </div>
-                    <div>
-                      <h3 className="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-2">Head Office</h3>
-                      <div className="font-serif text-base font-bold text-navy mb-0.5">Nithya Gokul Associates</div>
-                      <div className="text-[11px] text-gold font-bold mb-2 uppercase tracking-widest">Erode Office</div>
-                      <p className="text-slate-600 leading-[1.5] text-[14px]">
-                        Bharathipalayam 1st Street<br />
-                        Opposite lane to Kotak Mahindra Bank<br />
-                        Netaji Nagar, Moolapalayam<br />
-                        Erode – 638002
-                      </p>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-3 border-t border-slate-200/60">
+                      {/* Erode Head Office */}
+                      <div>
+                        <div className="text-[11px] text-gold font-bold mb-1.5 uppercase tracking-widest">
+                          Head Office (Erode)
+                        </div>
+                        <p className="text-slate-600 leading-[1.6] text-[13.5px]">
+                          Bharathipalayam 1st Street<br />
+                          Opposite lane to Kotak Mahindra Bank<br />
+                          Netaji Nagar, Moolapalayam<br />
+                          Erode – 638002
+                        </p>
+                      </div>
+
+                      {/* Trichy Office */}
+                      <div>
+                        <div className="text-[11px] text-gold font-bold mb-1.5 uppercase tracking-widest">
+                          Trichy Office
+                        </div>
+                        <p className="text-slate-600 leading-[1.6] text-[13.5px]">
+                          No.71, 8th East Cross<br />
+                          Thillai Nagar<br />
+                          Trichy – 620 018
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>

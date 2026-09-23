@@ -140,7 +140,7 @@ export default function Footer() {
             <ul className="space-y-2.5 text-sm text-slate-300">
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-[#D4A017] shrink-0" />
-                <span>Erode, Tamil Nadu</span>
+                <span>Erode &bull; Trichy, Tamil Nadu</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-[#D4A017] shrink-0" />
