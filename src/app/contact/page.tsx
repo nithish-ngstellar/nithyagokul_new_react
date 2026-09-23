@@ -122,7 +122,7 @@ export default function ContactPage() {
                       {/* Trichy Office */}
                       <div>
                         <div className="text-[11px] text-gold font-bold mb-1.5 uppercase tracking-widest">
-                          Trichy Office
+                          Tiruchirappalli (Trichy Office)
                         </div>
                         <p className="text-slate-600 leading-[1.6] text-[13.5px]">
                           No.71, 8th East Cross<br />
