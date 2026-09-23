@@ -136,6 +136,7 @@ export default function ContactPage() {
               </SlideUp>
             </div>
 
+
             {/* Right Column: Lead Form */}
             <div className="relative">
               <SlideUp delay={0.4}>
